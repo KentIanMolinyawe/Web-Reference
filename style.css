@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+/* Top navigation grid */
+.top-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: linear-gradient(30deg, #fcf1d8, #245eca);
+    text-align: center;
+    /* padding + font size == 11 */
+    padding: 6vw;
+    font-size: 5vw;
+    border-radius: 15px;
+}
+.heading-1{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.top-nav a:hover {
+    color: #ffcc00;
+}
+.nav-pic-2 {
+    height: 150px;
+    width: 300px;
+    border-radius: 200px;
+}
+.headline{
+    position: relative;
+    margin-top: -160px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.nav-pic{
+    width: 30vw;
+    position: relative;
+    margin-top: -18vw;
+    margin-left: 60vw;
+}
+.four-part-box {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Evenly distribute the parts */
+    align-items: center; /* Align the parts vertically */
+    width: 70%; /* Full width container */
+    padding: 20px 30px; /* Padding around the container */
+    background-color: #ddd; /* Container background color */
+    border-radius: 15px;
+    margin-top: 10px;
+    
+}
+.box-button {
+    padding: 2vw 6vw; /* Padding around the button text */
+    background-color: #6c757d; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+.box-button:hover {
+    background-color: #5a6268; /* Darken on hover */
+}
+/* center four-part-box */
+.container-1 {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 17vh; /* Full viewport height */
+}
+.box-part {
+    flex: 1; /* Equal width for each part */
+    margin: 5px; /* Margin between parts */
+    padding: 10px; /* Padding inside each part */
+    background-color: #f0f0f0; /* Background color for each part */
+    border: 1px solid #ccc; /* Border for each part */
+    text-align: center; /* Center the text */
+    font-size: 16px; /* Text size */
+    border-radius: 15px;
+}
+.box-part-img {
+    flex: 1; /* Equal width for each part */
+    margin: 5px; /* Margin between parts */
+    padding: 10px; /* Padding inside each part */
+    background-color: #f0f0f0; /* Background color for each part */
+    border: 1px solid #001eff; /* Border for each part */
+    text-align: center; /* Center the text */
+    font-size: 16px; /* Text size */
+    border-radius: 100px;
+    height: 65%;
+}
+.two-by-four-box {
+    display: grid; /* Use CSS grid */
+    grid-template-columns: 1fr 1fr 1fr 1fr;; /* Two columns */
+    grid-template-rows: 1fr 1fr; /* Four rows */
+    gap: 5px; /* Spacing between sections */
+    padding: 10px; /* Padding around the box */
+    background-color: #ddd; /* Background color for the box */
+    border-radius: 15px;
+   
+}
+
+.box-part {
+    padding: 20px; /* Padding inside each part */
+    background-color: #f0f0f0; /* Background color for each part */
+    border: 1px solid #ccc; /* Border for each part */
+    text-align: center; /* Center the text */
+    font-size: 16px; /* Font size */
+}
+/* Main layout with content and sticky sidebar */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.section img {
+    width: 48%;
+    height: auto;
+}
+
+.section{
+    width: 98%;
+}
+
+.section-top{
+    width: 99%;
+}
+.section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.spread-members {
+    margin-top: 140vw;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.spread-members h2 {
+    margin-top: 0;
+}
+.image-box {
+    display: inline-block;
+    margin: 0 10px;
+}
+.image-box img {
+    display: block;
+    margin: 0 auto;
+}
+.image-box p {
+    margin: 5px 0;
+}
+h2 {
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+/* Blue splash effect for paragraphs */
+.splash-p {
+    position: relative;
+    padding: 10px;
+    background: linear-gradient(30deg, #60f0e4, #1e6fe9);
+    border-radius: 10px;
+    height: 22vw;
+    width: 47vw;
+    font-size: 20px;
+}
+
